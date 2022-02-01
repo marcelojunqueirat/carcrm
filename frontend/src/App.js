@@ -1,7 +1,7 @@
 import { Provider } from 'react-redux';
 import { store } from './store/store';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { blue } from '@material-ui/core/colors';
+import { createTheme, ThemeProvider } from '@mui/material';
+import { blue } from '@mui/material/colors';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './global.css'
 import Routes from './Routes';
